@@ -34,7 +34,7 @@ function sendWhatsAppMessage() {
     var message = document.getElementById('pesan').value;
     
     // Ganti nomor WhatsApp sesuai kebutuhan Anda
-    var nomor_whatsapp = "625694103101";
+    var nomor_whatsapp = "6285694103101";
     var whatsapp_message = "Hallo, perkenalkan nama saya : " + encodeURIComponent(nama)  + "%0A" + "Dengan Email : " + encodeURIComponent(email)  + "%0A" + " saya ingin memberikan Pesan: " + encodeURIComponent(message);
 
 
