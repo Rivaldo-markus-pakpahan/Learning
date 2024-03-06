@@ -1,0 +1,173 @@
+
+#navbar1{
+    background-color:black;
+    
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    
+  }
+.container-fluid a{
+    color:goldenrod;
+    font-weight: bold;
+  
+}
+nav{
+    box-shadow: 0 0 20px 10px rgb(41, 41, 41);
+}
+.navbar-brand{
+ 
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right, gold, rgb(245, 176, 3));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-toggler {
+    order: -1; /* Memindahkan toggle button ke awal (kiri) */
+  }
+  
+  .navbar-nav {
+    margin: 0 auto; /* Menengahkan menu ketika collapse */
+    display: flex;
+    justify-content: center;
+  }
+.container-fluid a:hover{
+    color:white;
+    background-color: gold;
+    border-radius: 3px;
+    width: auto;
+    height: auto;
+}
+
+.konten_atas {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:center;
+    color: gold;
+  }
+.konten_atas, .welcome{
+  
+    margin-bottom:20px;
+   
+}
+
+.konten_atas, .card{
+   
+    background-color: black;
+    
+}
+
+.card{
+    width:350px;
+    height:350px;
+    background-color: black; /* Warna latar belakang kotak */
+    margin: 10px;
+    position: relative;
+    align-items: center;
+
+    color: white;
+    box-shadow: 0 0 20px 10px rgb(65, 64, 64);
+    align-items: center;
+ 
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+.card h5  {
+    padding-top: 10px;
+}
+.sosmed a{
+    background-color:gold ;
+    margin-right: 10px;
+}
+.welcome a{
+
+    text-decoration: none;
+    color:white;
+}
+.welcome p{
+    text-align:justify;
+    padding-right: 10px;
+}
+.layanan{
+    height:auto;
+    margin-bottom: 20%;
+
+
+}
+
+
+
+
+.card1{
+    width:350px;
+    height:350px;
+    background-color:white; /* Warna latar belakang kotak */
+    margin: 10px;
+    position: relative;
+    align-items: center;
+    
+    color:black;
+    box-shadow: 0 0 20px 10px rgb(202, 200, 200);
+    align-items: center;
+ 
+}
+hr{
+    border: 2px solid black;
+    width: 50%;
+
+}
+.forkontak{
+    border: 2px solid gold;
+    width: 50%;
+}
+.diskon{
+    color: red;
+}
+
+.kontak{
+    height:500px;
+    color: gold;
+    background-color: black;
+}
+.kirim{
+    background-color: rgb(247, 230, 137);
+    color: black;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight:500;
+    border: rgb(247, 230, 137) 2px solid;
+    box-shadow: 0 0 10px 3px rgb(202, 200, 200);
+    
+}
+.kirim:hover{
+    background-color:gold;
+    color: black;
+    font-weight:bold;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border:gold 2px solid;
+}
+.foot{
+    height:auto;
+    background-color:black;
+    color: gold;
+    margin-top: 2px;
+    align-items: center;
+}
